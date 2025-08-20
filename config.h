@@ -17,7 +17,7 @@ static const char col_gold[] = "#EEE391"; // golden yellow
 
 static const char* colors[][3] = {
     /*               fg         bg         border   */
-    [SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
+    [SchemeNorm] = { col_gray4, col_gray1, col_gray2 },
     [SchemeSel] = { col_gray1, col_gold, col_gold },
 };
 /* tagging */
