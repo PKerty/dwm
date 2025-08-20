@@ -79,8 +79,8 @@ static const char* decvol[] = { "wpctl", "set-volume", "@DEFAULT_AUDIO_SINK@", "
 // Toggle mute on the default output
 static const char* mutevol[] = { "wpctl", "set-mute", "@DEFAULT_AUDIO_SINK@", "toggle", NULL };
 
-static const char* upbrightness[] = { "xbacklight", "-inc", "10", NULL };
-static const char* downbrightness[] = { "xbacklight", "-dec", "10", NULL };
+static const char* upbrightness[] = { "brightnessctl", "set", "10%+", NULL };
+static const char* downbrightness[] = { "brightnessctl", "set", "10%-", NULL };
 
 static const Key keys[] = {
     /* modifier                     key        function        argument */
